@@ -19,8 +19,8 @@ UI를 어떻게 보여줄 지 담당하는 부분입니다.<br>
 public class MonoView : MonoBehaviour, IDisposable
 {
     ...
-//View에 Presenter를 바인딩하는 메서드 입니다.
-//만약 이미 Presenter가 바인딩 되어 있다면, View와 Presenter의 1:1 대응을 위해 해당 Presenter는 자동으로 Dispose처리 됩니다.
+    //View에 Presenter를 바인딩하는 메서드 입니다.
+    //만약 이미 Presenter가 바인딩 되어 있다면, View와 Presenter의 1:1 대응을 위해 해당 Presenter는 자동으로 Dispose처리 됩니다.
     public virtual T2 Binding<T1, T2>() where T1 : MonoView where T2 : Presenter<T1>, new()
     {
         var presenter = new T2();
