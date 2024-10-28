@@ -4,21 +4,22 @@ UNITY에서 효율적인 UI 구현을 위한 MVP패턴의 View 및 Presenter 코
 <br>
 목차
 <br>
-1.[사용목적](#Purpose)<br>
-2.[동작개요](#Overview)<br>
+1.[Purpose](#Purpose)<br>
+2.[Overview](#Overview)<br>
 3.[View](#View)<br>
 4.[Presenter](#Presenter)<br>
 5.[Example](#Example)<br>
 <br>
 
 ## Purpose
+MVP패턴을 사용한 이 코드베이스의 사용 목적에 대한 설명입니다.
 1. 확장의 용이성 확보<br>
     각 기능들을 구현하는 부분들이 나뉘어져 있어, 영역 구분이 확실하게 지어지게 됩니다. 이는 관리 및 확장을 용이하게 만들어 줍니다.<br>
 2. 각 구성 요소들의 모듈성<br>
     기능들을 구현하는 코드 영역 구분이 확실해 짐으로 인해, 단일 기능 수정 시 다른 기능에 가는 영향을 최소화 할 수 있게 됩니다.<br>
 
 ## Overview
-간단한 동작 개요 설명입니다.
+간결하게 작성한 동작 개요에 대한 설명입니다.
 1. View의 UI 구성요소들의 상호작용을 Presenter로 전달
 2. Presenter는 View에서 발생한 상호작용을 기반으로 Model의 데이터 변경
 3. Model의 데이터 변경을 Presenter로 통지
