@@ -1,14 +1,17 @@
 # UI 구현에 사용할 MVP패턴 코드 베이스
 UNITY에서 효율적인 UI 구현을 위한 MVP패턴의 View 및 Presenter 코드 베이스입니다.
->Last update : 24/10/13
+>Last update : 24/10/28
 <br>
-목차
+
+## 목차
 <br>
-1.[Purpose](#Purpose)<br>
-2.[Overview](#Overview)<br>
-3.[View](#View)<br>
-4.[Presenter](#Presenter)<br>
-5.[Example](#Example)<br>
+
+1. [Purpose](#purpose) : 사용목적에 대한 설명<br>
+2. [Overview](#overview) : 동작 개요에 대한 설명<br>
+3. [View](#view) : View의 구현부<br>
+4. [Presenter](#presenter) : Presenter의 구현부<br>
+5. [Example](#example) : 간단한 사용 예시
+
 <br>
 
 ## Purpose
