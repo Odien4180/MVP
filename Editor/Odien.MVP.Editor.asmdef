@@ -1,0 +1,10 @@
+{
+  "name": "Odien.MVP.Editor",
+  "rootNamespace": "Odien.MVP.Editor",
+  "references": [
+    "Odien.MVP"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

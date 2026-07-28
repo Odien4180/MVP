@@ -1,0 +1,16 @@
+{
+  "name": "com.odien.mvp",
+  "version": "1.0.0",
+  "displayName": "MVP",
+  "description": "A lightweight Model-View-Presenter foundation with lifecycle-safe presenter disposal for Unity UI.",
+  "unity": "6000.0",
+  "keywords": [
+    "mvp",
+    "ui",
+    "presenter"
+  ],
+  "author": {
+    "name": "Odien4180",
+    "url": "https://github.com/Odien4180"
+  }
+}
