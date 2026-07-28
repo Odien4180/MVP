@@ -18,7 +18,7 @@ https://github.com/Odien4180/MVP.git
 특정 릴리스로 고정하려면 Git 태그를 URL 뒤에 붙입니다.
 
 ```text
-https://github.com/Odien4180/MVP.git#v1.0.1
+https://github.com/Odien4180/MVP.git#v1.0.2
 ```
 
 또는 프로젝트의 `Packages/manifest.json`에 직접 추가할 수 있습니다.

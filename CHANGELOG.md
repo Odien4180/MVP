@@ -2,6 +2,11 @@
 
 All notable changes to this package are documented in this file.
 
+## [1.0.2] - 2026-07-28
+
+- Restored the minimal `ICollection<IDisposable>` contract required by
+  subscription `.AddTo(presenter)` extensions.
+
 ## [1.0.1] - 2026-07-28
 
 - Assigned `MonoViewObserver` a package-specific GUID to avoid collisions with
