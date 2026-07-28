@@ -2,6 +2,11 @@
 
 All notable changes to this package are documented in this file.
 
+## [1.0.1] - 2026-07-28
+
+- Assigned `MonoViewObserver` a package-specific GUID to avoid collisions with
+  projects migrating from the original embedded MVP scripts.
+
 ## [1.0.0] - 2026-07-28
 
 - Added a Unity Package Manager manifest.
